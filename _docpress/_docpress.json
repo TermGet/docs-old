@@ -1,0 +1,501 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "Introduction",
+        "source": "docs/Intro.md",
+        "url": "index.html",
+        "slug": "index",
+        "headings": [
+          {
+            "title": "What is TermGet?",
+            "depth": 3,
+            "id": "what-is-termget"
+          },
+          {
+            "title": "What are some of it's features",
+            "depth": 3,
+            "id": "what-are-some-of-it's-features"
+          }
+        ]
+      },
+      {
+        "title": "Downloads",
+        "source": "docs/download.md",
+        "url": "download.html",
+        "slug": "download"
+      },
+      {
+        "title": "How do I install TermGet on Linux, BSD, and MacOS",
+        "source": "docs/install.md",
+        "url": "install.html",
+        "slug": "install",
+        "headings": [
+          {
+            "title": "Installing Python3",
+            "depth": 3,
+            "id": "installing-python3"
+          },
+          {
+            "title": "Arch Linux Dependencies",
+            "depth": 3,
+            "id": "arch-linux-dependencies"
+          },
+          {
+            "title": "Mac OS Dependencies",
+            "depth": 3,
+            "id": "mac-os-dependencies"
+          },
+          {
+            "title": "Downloading and Installing TermGet",
+            "depth": 3,
+            "id": "downloading-and-installing-termget"
+          }
+        ]
+      },
+      {
+        "title": "First Time Setup On Linux, BSD, ChromeOS, and MacOS.",
+        "source": "docs/setup.md",
+        "url": "setup.html",
+        "slug": "setup"
+      },
+      {
+        "title": "How do I install TermGet on ChromeOS",
+        "source": "docs/install-chrome.md",
+        "url": "install-chrome.html",
+        "slug": "install-chrome",
+        "headings": [
+          {
+            "title": "Warning: TermGet on ChromeOS is not offically supported. TermGet on ChromeOS is also super buggy.",
+            "depth": 3,
+            "id": "warning:-termget-on-chromeos-is-not-offically-supported.-termget-on-chromeos-is-also-super-buggy."
+          }
+        ]
+      },
+      {
+        "title": "How to use TermGet",
+        "source": "docs/use.md",
+        "url": "use.html",
+        "slug": "use",
+        "headings": [
+          {
+            "title": "Searching for Packages",
+            "depth": 3,
+            "id": "searching-for-packages"
+          },
+          {
+            "title": "Installing a package",
+            "depth": 3,
+            "id": "installing-a-package"
+          },
+          {
+            "title": "Removing a package",
+            "depth": 3,
+            "id": "removing-a-package"
+          },
+          {
+            "title": "Updating all packages",
+            "depth": 3,
+            "id": "updating-all-packages"
+          },
+          {
+            "title": "Updating the repository",
+            "depth": 3,
+            "id": "updating-the-repository"
+          },
+          {
+            "title": "Cleaning",
+            "depth": 3,
+            "id": "cleaning"
+          },
+          {
+            "title": "Entering the Shell",
+            "depth": 3,
+            "id": "entering-the-shell"
+          },
+          {
+            "title": "Using PIP",
+            "depth": 3,
+            "id": "using-pip"
+          },
+          {
+            "title": "Using APM",
+            "depth": 3,
+            "id": "using-apm"
+          },
+          {
+            "title": "Features in 3.0 Alpha",
+            "depth": 2,
+            "id": "features-in-3.0-alpha",
+            "headings": [
+              {
+                "title": "Checking for updates",
+                "depth": 3,
+                "id": "checking-for-updates"
+              },
+              {
+                "title": "Snap Support",
+                "depth": 3,
+                "id": "snap-support"
+              },
+              {
+                "title": "Flatpak Support",
+                "depth": 3,
+                "id": "flatpak-support"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Change Package Manager",
+        "source": "docs/package-manager.md",
+        "url": "package-manager.html",
+        "slug": "package-manager",
+        "headings": [
+          {
+            "title": "Temporarily (On Linux, BSD, and macOS.)",
+            "depth": 3,
+            "id": "temporarily-(on-linux-bsd-and-macos.)"
+          },
+          {
+            "title": "Permanently (On Linux, BSD, and macOS)",
+            "depth": 3,
+            "id": "permanently-(on-linux-bsd-and-macos)"
+          }
+        ]
+      },
+      {
+        "title": "TermGet for Windows",
+        "source": "docs/TermGet-Windows.md",
+        "url": "TermGet-Windows.html",
+        "slug": "termget-windows"
+      },
+      {
+        "title": "License",
+        "source": "docs/License.md",
+        "url": "License.html",
+        "slug": "license"
+      },
+      {
+        "title": "Changelog",
+        "source": "docs/Changelog.md",
+        "url": "Changelog.html",
+        "slug": "changelog",
+        "headings": [
+          {
+            "title": "TermGet 2.2",
+            "depth": 3,
+            "id": "termget-2.2"
+          },
+          {
+            "title": "TermGet 2.1.4 (TermGet 2.1.3 with updated readme)",
+            "depth": 3,
+            "id": "termget-2.1.4-(termget-2.1.3-with-updated-readme)"
+          },
+          {
+            "title": "TermGet 2.1.3",
+            "depth": 3,
+            "id": "termget-2.1.3"
+          },
+          {
+            "title": "TermGet 2.1.2",
+            "depth": 3,
+            "id": "termget-2.1.2"
+          },
+          {
+            "title": "TermGet 2.1.0 - 2.1.1",
+            "depth": 3,
+            "id": "termget-2.1.0-2.1.1"
+          },
+          {
+            "title": "TermGet 2.0.0",
+            "depth": 3,
+            "id": "termget-2.0.0"
+          },
+          {
+            "title": "TermGet 1.1.1 - 1.1.4",
+            "depth": 3,
+            "id": "termget-1.1.1-1.1.4"
+          },
+          {
+            "title": "TermGet 1.1.0",
+            "depth": 3,
+            "id": "termget-1.1.0"
+          },
+          {
+            "title": "TermGet 1.0.1",
+            "depth": 3,
+            "id": "termget-1.0.1"
+          },
+          {
+            "title": "TermGet 1.0.0",
+            "depth": 3,
+            "id": "termget-1.0.0"
+          }
+        ]
+      },
+      {
+        "title": "To Do List for TermGet 3.0",
+        "source": "docs/ToDo.md",
+        "url": "ToDo.html",
+        "slug": "todo"
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "docs/Intro.md",
+      "title": "Introduction",
+      "pageTitle": "Introduction",
+      "slug": "index",
+      "headings": [
+        {
+          "title": "What is TermGet?",
+          "depth": 3,
+          "id": "what-is-termget"
+        },
+        {
+          "title": "What are some of it's features",
+          "depth": 3,
+          "id": "what-are-some-of-it's-features"
+        }
+      ]
+    },
+    "download.html": {
+      "source": "docs/download.md",
+      "title": "Downloads - Introduction",
+      "pageTitle": "Downloads",
+      "slug": "download"
+    },
+    "install.html": {
+      "source": "docs/install.md",
+      "title": "How do I install TermGet on Linux, BSD, and MacOS - Introduction",
+      "pageTitle": "How do I install TermGet on Linux, BSD, and MacOS",
+      "slug": "install",
+      "headings": [
+        {
+          "title": "Installing Python3",
+          "depth": 3,
+          "id": "installing-python3"
+        },
+        {
+          "title": "Arch Linux Dependencies",
+          "depth": 3,
+          "id": "arch-linux-dependencies"
+        },
+        {
+          "title": "Mac OS Dependencies",
+          "depth": 3,
+          "id": "mac-os-dependencies"
+        },
+        {
+          "title": "Downloading and Installing TermGet",
+          "depth": 3,
+          "id": "downloading-and-installing-termget"
+        }
+      ]
+    },
+    "setup.html": {
+      "source": "docs/setup.md",
+      "title": "First Time Setup On Linux, BSD, ChromeOS, and MacOS. - Introduction",
+      "pageTitle": "First Time Setup On Linux, BSD, ChromeOS, and MacOS.",
+      "slug": "setup"
+    },
+    "install-chrome.html": {
+      "source": "docs/install-chrome.md",
+      "title": "How do I install TermGet on ChromeOS - Introduction",
+      "pageTitle": "How do I install TermGet on ChromeOS",
+      "slug": "install-chrome",
+      "headings": [
+        {
+          "title": "Warning: TermGet on ChromeOS is not offically supported. TermGet on ChromeOS is also super buggy.",
+          "depth": 3,
+          "id": "warning:-termget-on-chromeos-is-not-offically-supported.-termget-on-chromeos-is-also-super-buggy."
+        }
+      ]
+    },
+    "use.html": {
+      "source": "docs/use.md",
+      "title": "How to use TermGet - Introduction",
+      "pageTitle": "How to use TermGet",
+      "slug": "use",
+      "headings": [
+        {
+          "title": "Searching for Packages",
+          "depth": 3,
+          "id": "searching-for-packages"
+        },
+        {
+          "title": "Installing a package",
+          "depth": 3,
+          "id": "installing-a-package"
+        },
+        {
+          "title": "Removing a package",
+          "depth": 3,
+          "id": "removing-a-package"
+        },
+        {
+          "title": "Updating all packages",
+          "depth": 3,
+          "id": "updating-all-packages"
+        },
+        {
+          "title": "Updating the repository",
+          "depth": 3,
+          "id": "updating-the-repository"
+        },
+        {
+          "title": "Cleaning",
+          "depth": 3,
+          "id": "cleaning"
+        },
+        {
+          "title": "Entering the Shell",
+          "depth": 3,
+          "id": "entering-the-shell"
+        },
+        {
+          "title": "Using PIP",
+          "depth": 3,
+          "id": "using-pip"
+        },
+        {
+          "title": "Using APM",
+          "depth": 3,
+          "id": "using-apm"
+        },
+        {
+          "title": "Features in 3.0 Alpha",
+          "depth": 2,
+          "id": "features-in-3.0-alpha",
+          "headings": [
+            {
+              "title": "Checking for updates",
+              "depth": 3,
+              "id": "checking-for-updates"
+            },
+            {
+              "title": "Snap Support",
+              "depth": 3,
+              "id": "snap-support"
+            },
+            {
+              "title": "Flatpak Support",
+              "depth": 3,
+              "id": "flatpak-support"
+            }
+          ]
+        }
+      ]
+    },
+    "package-manager.html": {
+      "source": "docs/package-manager.md",
+      "title": "Change Package Manager - Introduction",
+      "pageTitle": "Change Package Manager",
+      "slug": "package-manager",
+      "headings": [
+        {
+          "title": "Temporarily (On Linux, BSD, and macOS.)",
+          "depth": 3,
+          "id": "temporarily-(on-linux-bsd-and-macos.)"
+        },
+        {
+          "title": "Permanently (On Linux, BSD, and macOS)",
+          "depth": 3,
+          "id": "permanently-(on-linux-bsd-and-macos)"
+        }
+      ]
+    },
+    "TermGet-Windows.html": {
+      "source": "docs/TermGet-Windows.md",
+      "title": "TermGet for Windows - Introduction",
+      "pageTitle": "TermGet for Windows",
+      "slug": "termget-windows"
+    },
+    "License.html": {
+      "source": "docs/License.md",
+      "title": "License - Introduction",
+      "pageTitle": "License",
+      "slug": "license"
+    },
+    "Changelog.html": {
+      "source": "docs/Changelog.md",
+      "title": "Changelog - Introduction",
+      "pageTitle": "Changelog",
+      "slug": "changelog",
+      "headings": [
+        {
+          "title": "TermGet 2.2",
+          "depth": 3,
+          "id": "termget-2.2"
+        },
+        {
+          "title": "TermGet 2.1.4 (TermGet 2.1.3 with updated readme)",
+          "depth": 3,
+          "id": "termget-2.1.4-(termget-2.1.3-with-updated-readme)"
+        },
+        {
+          "title": "TermGet 2.1.3",
+          "depth": 3,
+          "id": "termget-2.1.3"
+        },
+        {
+          "title": "TermGet 2.1.2",
+          "depth": 3,
+          "id": "termget-2.1.2"
+        },
+        {
+          "title": "TermGet 2.1.0 - 2.1.1",
+          "depth": 3,
+          "id": "termget-2.1.0-2.1.1"
+        },
+        {
+          "title": "TermGet 2.0.0",
+          "depth": 3,
+          "id": "termget-2.0.0"
+        },
+        {
+          "title": "TermGet 1.1.1 - 1.1.4",
+          "depth": 3,
+          "id": "termget-1.1.1-1.1.4"
+        },
+        {
+          "title": "TermGet 1.1.0",
+          "depth": 3,
+          "id": "termget-1.1.0"
+        },
+        {
+          "title": "TermGet 1.0.1",
+          "depth": 3,
+          "id": "termget-1.0.1"
+        },
+        {
+          "title": "TermGet 1.0.0",
+          "depth": 3,
+          "id": "termget-1.0.0"
+        }
+      ]
+    },
+    "ToDo.html": {
+      "source": "docs/ToDo.md",
+      "title": "To Do List for TermGet 3.0 - Introduction",
+      "pageTitle": "To Do List for TermGet 3.0",
+      "slug": "todo"
+    }
+  },
+  "sources": {
+    "docs/Intro.md": "index.html",
+    "docs/download.md": "download.html",
+    "docs/install.md": "install.html",
+    "docs/setup.md": "setup.html",
+    "docs/install-chrome.md": "install-chrome.html",
+    "docs/use.md": "use.html",
+    "docs/package-manager.md": "package-manager.html",
+    "docs/TermGet-Windows.md": "TermGet-Windows.html",
+    "docs/License.md": "License.html",
+    "docs/Changelog.md": "Changelog.html",
+    "docs/ToDo.md": "ToDo.html"
+  }
+}

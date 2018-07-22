@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/style.css?t=615badd5">
+    <script src="assets/script.js?t=42463e55"></script>
+    <title>How to use TermGet - Introduction</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a class="link title  link-index" href="index.html">Introduction</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-download" href="download.html">Downloads</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-install" href="install.html">How do I install TermGet on Linux, BSD, and MacOS</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-setup" href="setup.html">First Time Setup On Linux, BSD, ChromeOS, and MacOS.</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-install-chrome" href="install-chrome.html">How do I install TermGet on ChromeOS</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title -active link-use" href="use.html">How to use TermGet</a>
+              <ul class="headings heading-list">
+                <li class="heading-item -depth-3"><a class="hlink link-searching-for-packages" href="#searching-for-packages">Searching for Packages</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-installing-a-package" href="#installing-a-package">Installing a package</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-removing-a-package" href="#removing-a-package">Removing a package</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-updating-all-packages" href="#updating-all-packages">Updating all packages</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-updating-the-repository" href="#updating-the-repository">Updating the repository</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-cleaning" href="#cleaning">Cleaning</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-entering-the-shell" href="#entering-the-shell">Entering the Shell</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-using-pip" href="#using-pip">Using PIP</a>
+                </li>
+                <li class="heading-item -depth-3"><a class="hlink link-using-apm" href="#using-apm">Using APM</a>
+                </li>
+                <li class="heading-item -depth-2"><a class="hlink link-features-in-3.0-alpha" href="#features-in-3.0-alpha">Features in 3.0 Alpha</a>
+                  <ul class="heading-list -depth-2">
+                    <li class="heading-item -depth-3"><a class="hlink link-checking-for-updates" href="#checking-for-updates">Checking for updates</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a class="hlink link-snap-support" href="#snap-support">Snap Support</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a class="hlink link-flatpak-support" href="#flatpak-support">Flatpak Support</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-package-manager" href="package-manager.html">Change Package Manager</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-termget-windows" href="TermGet-Windows.html">TermGet for Windows</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-license" href="License.html">License</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-changelog" href="Changelog.html">Changelog</a>
+            </li>
+            <li class="menu-item -level-1"><a class="link title  link-todo" href="ToDo.html">To Do List for TermGet 3.0</a>
+            </li>
+          </ul>
+        </li>
+      </div>
+      <div class="body page-use">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="how-do-i-use-termget-on-linux-bsd-macos-and-chromeos">How do I use TermGet on Linux, BSD, MacOS, and ChromeOS</h1>
+<p>This section gets updated with every release, if you are using an alpha or beta build, there might be extra features that aren&apos;t on this section of the README file.</p>
+<p>TermGet is really easy to use. To run it, all you have to do is open a terminal, and type:</p>
+<pre><code>termget
+</code></pre>
+<p>Just select using the number (for example if my package manager was apt-get, I would type the number 1, and press enter).</p>
+<p>Once your package manager has been chosen, you will get a message like this:</p>
+<pre><code>Please choose an action
+
+1. Search for packages
+2. Install an application
+3. Remove an application
+4. Update all packages
+5. Update Database
+6. Clean
+7. Credits
+8. Exit
+9. Enter shell
+</code></pre>
+<p><em>We will be using &quot;eopkg&quot; in the examples below.</em>
+<em>Results may vary for other package managers</em></p>
+<h3 id="searching-for-packages">Searching for Packages</h3>
+<p>Search, searches for packages.</p>
+<p>If are using TermGet 3.0 (currently in alpha), it would ask &quot;Did you find what you were looking for?&quot;. If you type y (For yes), then it asks you for the package to install (just in case the package you were looking for had a slightly different name then you thought). Once you type the name of the package it will install the package.</p>
+<h3 id="installing-a-package">Installing a package</h3>
+<p>Installing a package downloads and installs the package.</p>
+<h3 id="removing-a-package">Removing a package</h3>
+<p>Removing a package uninstalls a package.</p>
+<h3 id="updating-all-packages">Updating all packages</h3>
+<p>Updating all packages updates EVERYTHING ON THE SYSTEM. ()</p>
+<h3 id="updating-the-repository">Updating the repository</h3>
+<p>Updating the repository, checks the repository for new versions of packages. It is recommended to do this before updating.</p>
+<h3 id="cleaning">Cleaning</h3>
+<p>Cleaning helps save hard drive space. It does this by deleting cache, and deleting unneeded dependencies.</p>
+<h3 id="entering-the-shell">Entering the Shell</h3>
+<p>If you want to run a shell command like to add a PPA or something like that, you can open the shell and run the command, then type <code>exit</code> or press CTRL-D to leave the shell, and go back to TermGet.</p>
+<h3 id="using-pip">Using PIP</h3>
+<p>To run TermGet with PIP, just run:</p>
+<p><code>termget pip</code></p>
+<p>or</p>
+<p><code>termget pip2</code></p>
+<p>or</p>
+<p><code>termget pip3</code>.</p>
+<h3 id="using-apm">Using APM</h3>
+<p>To run TermGet with APM, just run:</p>
+<p><code>termget apm</code></p>
+<h2 id="features-in-3.0-alpha">Features in 3.0 Alpha</h2>
+<p>If you are using the TermGet 3.0 (Currently in Alpha), here are the features it adds.</p>
+<h3 id="checking-for-updates">Checking for updates</h3>
+<p>This will check to see if your version of TermGet is update to date. If not, please update. (Note: This feature is only for release versions. If you are using a Alpha version, it will always say that TermGet is outdated.)</p>
+<h3 id="snap-support">Snap Support</h3>
+<p>If you would like to install snap packages with TermGet, run:</p>
+<p><code>termget snap</code>.</p>
+<h3 id="flatpak-support">Flatpak Support</h3>
+<p>If you would like to install flatpak packages with TermGet, run:</p>
+<p><code>termget flatpak</code>.</p>
+<p>Note: The only source flatpak will install from is Flathub.</p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="install-chrome.html"><span class="title">How do I install TermGet on ChromeOS</span></a></div>
+          <div class="right"><a href="package-manager.html"><span class="label">Next: </span><span class="title">Change Package Manager</span></a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
