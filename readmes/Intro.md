@@ -17,7 +17,7 @@ TermGet is a frontend for:
  - chromebrew
  - emerge
  - pip
- - chocolatey [(Work In Progress)](https://gitlab.com/TermGet/TermGet-Windows)
+ - chocolatey [(Work In Progress)](https://github.com/TermGet/TermGet-Windows)
 
 ### What are some of it's features
 
