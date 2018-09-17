@@ -23,7 +23,7 @@
 ### TermGet 2.1.0 - 2.1.1
 
 - Added package manager detection to the installer.
-- Fixed search
+- Fixed search on apt.
 - Fix bugs with color
 - Added a cool start screen
 - Tons and tons of bug fixes
@@ -50,12 +50,12 @@
 
 ### TermGet 1.1.0
 
-- Now it saves your packages
+- Now it saves your package manager
 - Bug fixes
 
 ### TermGet 1.0.1
 
-- It no longer says TermGet is alpha
+- It no longer says TermGet is in alpha
 
 ### TermGet 1.0.0
 
