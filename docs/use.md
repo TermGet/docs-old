@@ -42,7 +42,7 @@ Removing a package uninstalls a package.
 
 ### Updating all packages
 
-Updating all packages updates EVERYTHING ON THE SYSTEM. ()
+Updating all packages updates EVERYTHING ON THE SYSTEM.
 
 ### Updating the repository
 
@@ -62,13 +62,13 @@ If you want to run a shell command like to add a PPA or something like that, you
 
 If you would like to install flatpak packages with TermGet, run:
 
-```termget flatpak```.
+```termget flatpak```
 
 Note: The only source flatpak will install from is Flathub.
 
 ### Snaps
 
-```termget snap```.
+```termget snap```
 
 ### Using PIP
 
@@ -80,23 +80,23 @@ or
 
 or
 
-```termget pip3```.
+```termget pip3```
 
 ### Using APM (Atom Package Manager)
 
-```termget apm```.
+```termget apm```
 
 ### Using NPM
 
-```termget npm```.
+```termget npm```
 
 ### Using Yarn
 
-```termget yarn```.
+```termget yarn```
 
 ### Using Bower
 
-```termget bower```.
+```termget bower```
 
 ### Using GEM
 
@@ -106,4 +106,4 @@ or
 
 Nix is usually used for NixOS, however it can be installed on other distros, as well as Mac... 
 
-```termget nix```.
+```termget nix```
