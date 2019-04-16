@@ -56,9 +56,21 @@ Cleaning helps save hard drive space. It does this by deleting cache, and deleti
 
 If you want to run a shell command like to add a PPA or something like that, you can open the shell and run the command, then type ```exit``` or press CTRL-D to leave the shell, and go back to TermGet.
 
-### Using PIP
+# Using package managers not build into distros...
 
-To run TermGet with PIP, just run:
+### Flatpaks
+
+If you would like to install flatpak packages with TermGet, run:
+
+```termget flatpak```.
+
+Note: The only source flatpak will install from is Flathub.
+
+### Snaps
+
+```termget snap```.
+
+### Using PIP
 
 ```termget pip```
 
@@ -70,30 +82,28 @@ or
 
 ```termget pip3```.
 
-### Using APM
+### Using APM (Atom Package Manager)
 
-To run TermGet with APM, just run:
+```termget apm```.
 
-```termget apm```
+### Using NPM
 
-## Features in 3.0 Alpha
+```termget npm```.
 
-If you are using the TermGet 3.0 (Currently in Alpha), here are the features it adds.
+### Using Yarn
 
-### Checking for updates
+```termget yarn```.
 
-This will check to see if your version of TermGet is update to date. If not, please update. (Note: This feature is only for release versions. If you are using a Alpha version, it will always say that TermGet is outdated.)
+### Using Bower
 
-### Snap Support
+```termget bower```.
 
-If you would like to install snap packages with TermGet, run:
+### Using GEM
 
-```termget snap```.
+```termget gem```
 
-### Flatpak Support
+### Using NIX
 
-If you would like to install flatpak packages with TermGet, run:
+Nix is usually used for NixOS, however it can be installed on other distros, as well as Mac... 
 
-```termget flatpak```.
-
-Note: The only source flatpak will install from is Flathub.
+```termget nix```.
