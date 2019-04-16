@@ -114,36 +114,49 @@
             "id": "entering-the-shell"
           },
           {
+            "title": "Flatpaks",
+            "depth": 3,
+            "id": "flatpaks"
+          },
+          {
+            "title": "Snaps",
+            "depth": 3,
+            "id": "snaps"
+          },
+          {
             "title": "Using PIP",
             "depth": 3,
             "id": "using-pip"
           },
           {
-            "title": "Using APM",
+            "title": "Using APM (Atom Package Manager)",
             "depth": 3,
-            "id": "using-apm"
+            "id": "using-apm-(atom-package-manager)"
           },
           {
-            "title": "Features in 3.0 Alpha",
-            "depth": 2,
-            "id": "features-in-3.0-alpha",
-            "headings": [
-              {
-                "title": "Checking for updates",
-                "depth": 3,
-                "id": "checking-for-updates"
-              },
-              {
-                "title": "Snap Support",
-                "depth": 3,
-                "id": "snap-support"
-              },
-              {
-                "title": "Flatpak Support",
-                "depth": 3,
-                "id": "flatpak-support"
-              }
-            ]
+            "title": "Using NPM",
+            "depth": 3,
+            "id": "using-npm"
+          },
+          {
+            "title": "Using Yarn",
+            "depth": 3,
+            "id": "using-yarn"
+          },
+          {
+            "title": "Using Bower",
+            "depth": 3,
+            "id": "using-bower"
+          },
+          {
+            "title": "Using GEM",
+            "depth": 3,
+            "id": "using-gem"
+          },
+          {
+            "title": "Using NIX",
+            "depth": 3,
+            "id": "using-nix"
           }
         ]
       },
@@ -166,12 +179,6 @@
         ]
       },
       {
-        "title": "TermGet for Windows",
-        "source": "docs/TermGet-Windows.md",
-        "url": "TermGet-Windows.html",
-        "slug": "termget-windows"
-      },
-      {
         "title": "License",
         "source": "docs/License.md",
         "url": "License.html",
@@ -183,6 +190,11 @@
         "url": "Changelog.html",
         "slug": "changelog",
         "headings": [
+          {
+            "title": "TermGet 3.0",
+            "depth": 3,
+            "id": "termget-3.0"
+          },
           {
             "title": "TermGet 2.2",
             "depth": 3,
@@ -357,36 +369,49 @@
           "id": "entering-the-shell"
         },
         {
+          "title": "Flatpaks",
+          "depth": 3,
+          "id": "flatpaks"
+        },
+        {
+          "title": "Snaps",
+          "depth": 3,
+          "id": "snaps"
+        },
+        {
           "title": "Using PIP",
           "depth": 3,
           "id": "using-pip"
         },
         {
-          "title": "Using APM",
+          "title": "Using APM (Atom Package Manager)",
           "depth": 3,
-          "id": "using-apm"
+          "id": "using-apm-(atom-package-manager)"
         },
         {
-          "title": "Features in 3.0 Alpha",
-          "depth": 2,
-          "id": "features-in-3.0-alpha",
-          "headings": [
-            {
-              "title": "Checking for updates",
-              "depth": 3,
-              "id": "checking-for-updates"
-            },
-            {
-              "title": "Snap Support",
-              "depth": 3,
-              "id": "snap-support"
-            },
-            {
-              "title": "Flatpak Support",
-              "depth": 3,
-              "id": "flatpak-support"
-            }
-          ]
+          "title": "Using NPM",
+          "depth": 3,
+          "id": "using-npm"
+        },
+        {
+          "title": "Using Yarn",
+          "depth": 3,
+          "id": "using-yarn"
+        },
+        {
+          "title": "Using Bower",
+          "depth": 3,
+          "id": "using-bower"
+        },
+        {
+          "title": "Using GEM",
+          "depth": 3,
+          "id": "using-gem"
+        },
+        {
+          "title": "Using NIX",
+          "depth": 3,
+          "id": "using-nix"
         }
       ]
     },
@@ -408,12 +433,6 @@
         }
       ]
     },
-    "TermGet-Windows.html": {
-      "source": "docs/TermGet-Windows.md",
-      "title": "TermGet for Windows - Introduction",
-      "pageTitle": "TermGet for Windows",
-      "slug": "termget-windows"
-    },
     "License.html": {
       "source": "docs/License.md",
       "title": "License - Introduction",
@@ -426,6 +445,11 @@
       "pageTitle": "Changelog",
       "slug": "changelog",
       "headings": [
+        {
+          "title": "TermGet 3.0",
+          "depth": 3,
+          "id": "termget-3.0"
+        },
         {
           "title": "TermGet 2.2",
           "depth": 3,
@@ -493,7 +517,6 @@
     "docs/install-chrome.md": "install-chrome.html",
     "docs/use.md": "use.html",
     "docs/package-manager.md": "package-manager.html",
-    "docs/TermGet-Windows.md": "TermGet-Windows.html",
     "docs/License.md": "License.html",
     "docs/Changelog.md": "Changelog.html",
     "docs/ToDo.md": "ToDo.html"
