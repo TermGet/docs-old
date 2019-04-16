@@ -5,7 +5,6 @@
 * [How do I install TermGet on ChromeOS](install-chrome.md)
 * [How to use TermGet](use.md)
 * [Change Package Manager](package-manager.md)
-* [TermGet for Windows](TermGet-Windows.md)
 * [License](License.md)
 * [Changelog](Changelog.md)
 * [To Do List for TermGet 3.0](ToDo.md)
