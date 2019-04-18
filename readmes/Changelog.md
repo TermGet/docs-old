@@ -1,6 +1,15 @@
 # Changelog
 
-### TermGet 3.0
+### TermGet 3.0.2
+
+- Fixed Flatpak support
+- Fixed Missing German Translation
+
+### TermGet 3.0.1:
+
+- New Splashscreen
+
+### TermGet 3.0:
 
 - Improved Coding
 - Added Snap and Flatpak Support
